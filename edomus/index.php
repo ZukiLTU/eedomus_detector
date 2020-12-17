@@ -7,7 +7,7 @@
         <h2>Informations :</h2>
         
         <?php
-          $id = 2188679;
+          $id = 2188679; //Door
           $val = 'last_value';
           $action = "periph.value";
 
