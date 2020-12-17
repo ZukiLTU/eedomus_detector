@@ -4,7 +4,7 @@
    
    function RetourBox($id_porte, $val, $action)
    {
-    $url = "http://10.129.137.184/api/get?";
+    $url = "http://YOUR_IP/api/get?";
     $url .= "&api_user=" . API_USER;
     $url .= "&api_secret=" . API_SECRET;
     $url.= "&action=".$action;    
@@ -38,7 +38,7 @@
    function RetourMouvement($id_mouv, $val, $action)
    {
 
-    $url = "http://10.129.137.184/api/get?";
+    $url = "http://YOUR_IP/api/get?";
     $url .= "&api_user=" . API_USER;
     $url .= "&api_secret=" . API_SECRET;
     $url.= "&action=".$action;    
