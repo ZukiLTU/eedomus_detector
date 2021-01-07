@@ -30,8 +30,8 @@
         header("refresh: 1");
         include_once 'porte.php';
         
-          $id_porte = 2188679;
-          $id_mouv = 2188675;
+          $id_porte = DOOR_ID;
+          $id_mouv = CAPT_ID;
           $val = 'last_value';
           $action = "periph.value";
           
